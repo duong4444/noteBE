@@ -2,7 +2,7 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-    "content": "may be id will be num 4",
+    "content": "the fk",
     "important": true
 }
 ###
@@ -10,7 +10,10 @@ POST http://localhost:3001/api/notes/
 Content-Type: application/json
 
 {
-    "content": "sample",
+    "content": "?",
     "sth": "sth"
 
 }
+###
+DELETE http://localhost:3001/api/notes/66c5b02d4fa2c0401a34bf14
+
